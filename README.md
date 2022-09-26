@@ -4,6 +4,10 @@ This is code generator for go-micro
 
 ## Install
 
+First install protoc. You can do this with either your package manager, or [directly](https://github.com/protocolbuffers/protobuf/releases) by downloading `protoc-$VERSION-$PLATFORM.zip`
+
+Then install `protoc-gen-go` and `protoc-gen-micro`.
+
 ```
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install github.com/go-micro/generator/cmd/protoc-gen-micro@latest
