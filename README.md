@@ -5,6 +5,7 @@ This is code generator for go-micro
 ## Install
 
 ```
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install github.com/go-micro/generator/cmd/protoc-gen-micro@latest
 ```
 
